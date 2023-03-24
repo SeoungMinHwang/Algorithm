@@ -1,5 +1,7 @@
 #https://www.acmicpc.net/problem/1717
 # 유니온 파인드
+
+
 import sys 
 sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
