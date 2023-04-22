@@ -1,13 +1,10 @@
 # https://www.acmicpc.net/problem/11509
 # 공간을 사용해서 시간을 버는것이 핵심
 
-
-from collections import deque
-
 n = int(input())
 balloons = list(map(int, input().split()))
 
-check = [0] * (n+1)
+check = [0] * 1000001
 answer = 0
 
 
